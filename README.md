@@ -109,7 +109,7 @@ At this point, all components of the payload are put together and the payload on
 - `<payload%0d`
 - `<payload%09`
 
-It should be noted that HTML specification allows `<tag{white space}{anything here}>` which indicates that an HTML tag such as `<a href='http://example.com' ny text can be placed here as long as there's a greater-than sign somewhere later in the HTML document>` is valid. This property of HTML tags makes it possible for an attacker to inject an HTML tag in the ways mentioned above.
+It should be noted that HTML specification allows `<tag{white space}{anything here}>` which indicates that an HTML tag such as `<a href='http://example.com' any text can be placed here as long as there's a greater-than sign somewhere later in the HTML document>` is valid. This property of HTML tags makes it possible for an attacker to inject an HTML tag in the ways mentioned above.
 
 ##### Payload Scheme #2
 
